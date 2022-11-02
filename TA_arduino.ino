@@ -96,7 +96,7 @@ void setup() {
 void loop() {
 
   nerimaData();
-
+//ini nerima data
   if (millis() > waktu) {
     waktu = millis() + durasi;
     ngirimData();
